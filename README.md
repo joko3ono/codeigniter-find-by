@@ -1,4 +1,4 @@
-simple extended active record
+find_by_magic for codeigniter
 ================
 
 Its my snippet of 'MY_Model' I ussualy used in my project when build web aps with CodeIgniter
