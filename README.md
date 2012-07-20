@@ -32,6 +32,8 @@ class Group extends MY_Model {
 1. find_by_field_name(parameter)
 
 ```php
+<?php
+
 $this->load->model('Group', 'group');
 $this->group->find_by_id(1);
 //this code will generate
@@ -41,6 +43,8 @@ $this->group->find_by_id(1);
 2. find_all_by_field_name(parameter)
 
 ```php
+<?php
+
 $this->load->model('Group', 'group');
 $this->group->find_all_by_id(1);
 //this code will generate
@@ -53,6 +57,8 @@ We can find_by function with unlimited parameter as long as the field is on the 
 
 example
 ```php
+<?php
+
 $this->load->model('Group', 'group');
 $this->group->find_all_by_name_and_parent('lorem', 'ipsum');
 //this will generate Query SELECT * FROM groups WHERE groups.name = 'lorem' AND groups.parent = 'ipsum'
